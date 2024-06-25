@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\bin\Debug\DailyReportAssignment.cs.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\bin\Debug\DailyReportAssignment.cs.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\bin\Debug\DailyReportAssignment.cs.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\obj\Debug\DailyReportAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\obj\Debug\DailyReportAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\obj\Debug\DailyReportAssignment.cs.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\DailyReportAssignment.cs\DailyReportAssignment.cs\obj\Debug\DailyReportAssignment.cs.pdb
