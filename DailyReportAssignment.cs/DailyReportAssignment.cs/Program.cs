@@ -52,6 +52,13 @@ namespace DailyReportAssignment.cs
             Console.WriteLine("Hours Studied: " + studyHours);
             Console.ReadLine();
 
+            //Save Data
+            Console.WriteLine("Save daily report?");
+            bool saveData = true;
+            string saveDailyReport = Convert.ToString(saveData);
+            Console.WriteLine(saveDailyReport);
+            Console.ReadLine();
+
             //End of Student Daily Report
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
             Console.ReadLine();
