@@ -1,0 +1,2 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\BooleanLogicAssignment.cs\BooleanLogicAssignment.cs\obj\Debug\BooleanLogicAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\BooleanLogicAssignment.cs\BooleanLogicAssignment.cs\obj\Debug\BooleanLogicAssignment.cs.csproj.CoreCompileInputs.cache
