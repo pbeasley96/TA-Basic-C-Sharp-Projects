@@ -1,7 +1,0 @@
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\bin\Debug\ConsoleApplicationAssignment.cs.exe.config
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\bin\Debug\ConsoleApplicationAssignment.cs.exe
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\bin\Debug\ConsoleApplicationAssignment.cs.pdb
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\obj\Debug\ConsoleApplicationAssignment.cs.csproj.AssemblyReference.cache
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\obj\Debug\ConsoleApplicationAssignment.cs.csproj.CoreCompileInputs.cache
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\obj\Debug\ConsoleApplicationAssignment.cs.exe
-C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApplicationAssignment.cs\ConsoleApplicationAssignment.cs\obj\Debug\ConsoleApplicationAssignment.cs.pdb
