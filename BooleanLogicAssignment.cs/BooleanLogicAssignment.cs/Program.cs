@@ -12,25 +12,22 @@ namespace BooleanLogicAssignment.cs
         {
             Console.WriteLine("What is your age?");
             string yourAge = Console.ReadLine();
-            Console.WriteLine("" + yourAge);
+            Console.WriteLine("Age: " + yourAge);
             Console.ReadLine();
 
             Console.WriteLine("Have you ever had a DUI?");
             string yourAnswer = Console.ReadLine();
-            Console.WriteLine("" + yourAnswer);
+            Console.WriteLine("DUI's: " + yourAnswer);
             Console.ReadLine();
 
             Console.WriteLine("How many speeding tickets do you have?");
             string yourTickets = Console.ReadLine();
-            Console.WriteLine("" + yourTickets);
+            Console.WriteLine("Tickets: " + yourTickets);
             Console.ReadLine();
-
-            int num1 = 15;
-            int num2 = 3;
 
             Console.WriteLine("Is this person qualified?");
             Console.ReadLine();
-            bool isQualified = (yourAge >= num1 && yourAnswer == "No" && yourTickets < num2);
+            bool isQualified = (Convert.ToInt32(yourAge) >= 15 && yourAnswer == "No" && Convert.ToInt32(yourTickets) < 3);
             Console.WriteLine(isQualified);
 
         }
