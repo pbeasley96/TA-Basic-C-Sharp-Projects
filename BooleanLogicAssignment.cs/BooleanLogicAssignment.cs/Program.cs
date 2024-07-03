@@ -27,7 +27,7 @@ namespace BooleanLogicAssignment.cs
 
             Console.WriteLine("Is this person qualified?");
             Console.ReadLine();
-            bool isQualified = (Convert.ToInt32(yourAge) >= 15 && yourAnswer == "No" && Convert.ToInt32(yourTickets) < 3);
+            bool isQualified = (Convert.ToInt32(yourAge) >= 16 && yourAnswer == "No" && Convert.ToInt32(yourTickets) < 4);
             Console.WriteLine(isQualified);
 
         }
