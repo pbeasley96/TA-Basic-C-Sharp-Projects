@@ -11,12 +11,9 @@ class Program
 
         Console.WriteLine("Please select an index of the Array."); //Have the user to select an index of the Array and then display the integer at that index on the screen.
         int input = Convert.ToInt32(Console.ReadLine());
-        int intOutput = numArray[input];
 
-        int[] array = { 1, 2, 3, 4, 5 };
-
-        if (input >= 0 && input < array.Length)
-        {
+        if (input >= 0 && input < numArray.Length)
+        {   int intOutput = numArray[input];
             Console.WriteLine(intOutput);
         }
         else
@@ -33,7 +30,7 @@ class Program
         int input1 = Convert.ToInt32(Console.ReadLine());
         string strOuput = strArray[input1];
 
-        if (input1 >= 0 && input1 < array.Length)
+        if (input1 >= 0 && input1 < strArray.Length)
         {
             Console.WriteLine(strOuput);
         }
