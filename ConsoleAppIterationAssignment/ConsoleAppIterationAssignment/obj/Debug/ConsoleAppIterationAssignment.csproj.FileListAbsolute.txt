@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\bin\Debug\ConsoleAppIterationAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\bin\Debug\ConsoleAppIterationAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\bin\Debug\ConsoleAppIterationAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\obj\Debug\ConsoleAppIterationAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\obj\Debug\ConsoleAppIterationAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\obj\Debug\ConsoleAppIterationAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppIterationAssignment\ConsoleAppIterationAssignment\obj\Debug\ConsoleAppIterationAssignment.pdb
