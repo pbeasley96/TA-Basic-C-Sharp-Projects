@@ -60,16 +60,19 @@ using System.Collections.Generic;
 
 
             //Assignment 6
-            List<string> strLetters = new List<string>() { "Z", "Y", "X", "W"}; //A list of strings that has at least two identical strings in the list.
-            List<string> strLetters1 = new List<string>() { "A", "B", "C","W" };
+            List<string> strLetters = new List<string>() { "Z", "Y", "X", "W", "Z" }; //A list of strings that has at least two identical strings in the list.
+            List<string> strLetters1 = new List<string>();
 
             foreach (string element in strLetters) //Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
-        {
-                Console.WriteLine("this is is unique.");
-
-                if (strLetters1.Contains(element))
+            {
+                if (strLetters.Contains(element))
+                {
+                    Console.WriteLine("this item is unique.");
+                }
+                else
                 {
                     Console.WriteLine("this item is a duplicate.");
+                    strLetters1.Add(element);
                 }
             }
             Console.ReadLine();
