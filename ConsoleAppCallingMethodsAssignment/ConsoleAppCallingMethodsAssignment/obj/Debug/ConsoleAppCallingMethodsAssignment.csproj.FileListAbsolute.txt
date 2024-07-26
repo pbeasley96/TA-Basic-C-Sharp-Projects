@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\bin\Debug\ConsoleAppCallingMethodsAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\bin\Debug\ConsoleAppCallingMethodsAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\bin\Debug\ConsoleAppCallingMethodsAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\obj\Debug\ConsoleAppCallingMethodsAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\obj\Debug\ConsoleAppCallingMethodsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\obj\Debug\ConsoleAppCallingMethodsAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppCallingMethodsAssignment\ConsoleAppCallingMethodsAssignment\obj\Debug\ConsoleAppCallingMethodsAssignment.pdb
