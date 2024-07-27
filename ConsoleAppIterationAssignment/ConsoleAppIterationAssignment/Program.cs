@@ -72,8 +72,8 @@ using System.Collections.Generic;
                 else
                 {
                     Console.WriteLine("this item is a duplicate.");
-                    strLetters1.Add(element);
                 }
+                strLetters1.Add(element);
             }
             Console.ReadLine();
         }
