@@ -65,13 +65,13 @@ using System.Collections.Generic;
 
             foreach (string element in strLetters) //Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
             {
-                if (strLetters.Contains(element))
+                if (strLetters1.Contains(element))
                 {
-                    Console.WriteLine("this item is unique.");
+                    Console.WriteLine(element + "this item is a duplicate.");
                 }
                 else
                 {
-                    Console.WriteLine("this item is a duplicate.");
+                    Console.WriteLine(element + "this item is unique.");
                 }
                 strLetters1.Add(element);
             }
