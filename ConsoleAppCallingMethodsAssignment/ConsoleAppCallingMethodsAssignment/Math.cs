@@ -8,8 +8,22 @@ namespace ConsoleAppCallingMethodsAssignment
 {
     public class Math //Create a class. In that class, create three methods, each of which will take one integer parameter in and return an integer.
     {
-        public int Add { get; set; }
-        public int Multiply { get; set; }
-        public int Divide { get; set; }
+        public int Add(int number)
+        {
+            int value = number + 10;
+            return value;
+        }
+
+        public int Multiply(int number)
+        {
+            int value = number * 10;
+            return value;
+        }
+
+        public int Divide(int number)
+        {
+            int value = number / 10;
+            return value;
+        }
     }
 }
