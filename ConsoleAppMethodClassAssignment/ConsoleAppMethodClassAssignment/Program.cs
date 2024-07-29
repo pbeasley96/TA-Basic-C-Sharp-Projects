@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppMethodClassAssignment
 {
-    class Math
+    class Math //Create a class.
     {
-        public int mathVal(int number, int number2)
+        public void MathVal(int value, int value2, out int result) //In that class, create a void method that takes two integers as parameters.
         {
-            int value1 = number + 20;
-            int value2 = number2;
-            return value1;
-            return value2;
-
+            result = value + value2;
         }
-        public static void Main()
+        public void Display() //Have the method do a math operation on the first integer and display the second integer to the screen. 
         {
-            Console.WriteLine();
+            int result;
+            MathVal(50, 50, out result);
+            Console.WriteLine("Result:" + result);
         }
 
+        internal int MathVal()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
@@ -28,6 +30,9 @@ namespace ConsoleAppMethodClassAssignment
     {
         static void Main(string[] args)
         {
+            Math mathVal = new Math(); //In the Main() method of the console app, instantiate the class.
+            int resultofMethod = mathVal.MathVal();
+            Console.WriteLine(resultofMethod);
         }
     }
 }
