@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppClassAssignment
 {
-    public class Math 
+    public class Math //Create a class.
     {
-        public int Divide(int number)
+        public void Divide(int number, out int result) //In that class, create a void method that outputs an integer.
         {
-            number = 50;
-            int value = number / 2;
-            return value;
+            result = number / 2; //Have the method divide the data passed to it by 2.
         }
-        public void PrintedEquation(int value)
+        public void DivideResult()
         {
-            Console.WriteLine("{0}", value);
+            int result;
+            Divide(50, out result);
+            Console.WriteLine("Divided result is: " + result);
         }
     }
 
@@ -25,9 +25,9 @@ namespace ConsoleAppClassAssignment
     {
         static void Main(string[] args)
         {
-            Math mathDivide = new Math();
-            ex.Divide();
-            ex.PrintedEquation();
+            Math mathDivide = new Math(); //In the Main() method, instantiate that class.
+            int resultofMethod = mathDivide.DivideResult();
+            Console.WriteLine(resultofMethod);
         }
     }
 }
