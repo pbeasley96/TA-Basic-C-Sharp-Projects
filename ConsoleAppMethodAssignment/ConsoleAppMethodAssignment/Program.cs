@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppMethodAssignment
 {
-    public class Number
+    public class Math //Create a class.
     {
-        public int Add(int number, int number2)
+        public int Operation(int number) //In that class, create a method that takes two integers as parameters.
         {
-            int value1 = number + 50;
-            int value2 = number + number2 + 50;
-            return value1;
-            return value2;
+            int value = number;
+            return value;
         }
+        public int OperationOptional(int number) //Make one of them optional. Have the method do a math operation and return an integer result.
+        {
+            int value = number + 50;
+            return value;
+        }
+
     }
 
 
@@ -23,12 +27,18 @@ namespace ConsoleAppMethodAssignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please select a number. You can select up to two numbers one at a time.");
-            Console.ReadLine();
+            Console.WriteLine("Please select a number. You can select up to two numbers one at a time."); //Ask the user to input two numbers, one at a time. Let them know they need not enter anything for the second number.
 
-            Number numberMath = new Number();
+            Math newOperation = new Math(); //Call the method in the class, passing in the one or two numbers entered.
             int input1 = Convert.ToInt32(Console.ReadLine());
-            int resultofInput1 = numberMath.Add(input1);
+            int input2 = Convert.ToInt32(Console.ReadLine());
+
+            int resultofMethod1 = newOperation.Operation(input1);
+            int resultofMethod2 = newOperation.OperationOptional(input2);
+
+            Console.WriteLine(resultofMethod1 + 50);
+            Console.WriteLine(resultofMethod1 + resultofMethod2);
+            Console.ReadLine();
         }
     }
 }
