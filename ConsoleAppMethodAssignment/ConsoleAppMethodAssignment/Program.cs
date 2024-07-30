@@ -16,7 +16,15 @@ namespace ConsoleAppMethodAssignment
         public int OperationOptional(int number) //Make one of them optional. Have the method do a math operation and return an integer result.
         {
             int value = number + 50;
-            return value;
+            if (value != 0 && value != int.)
+            {
+                return value;
+            }
+            else
+            {
+                return ;
+            }
+
         }
 
     }
