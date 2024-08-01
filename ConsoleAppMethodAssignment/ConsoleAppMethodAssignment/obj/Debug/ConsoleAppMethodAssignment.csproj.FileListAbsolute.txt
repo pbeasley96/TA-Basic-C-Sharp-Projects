@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\bin\Debug\ConsoleAppMethodAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\bin\Debug\ConsoleAppMethodAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\bin\Debug\ConsoleAppMethodAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\obj\Debug\ConsoleAppMethodAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\obj\Debug\ConsoleAppMethodAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\obj\Debug\ConsoleAppMethodAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppMethodAssignment\ConsoleAppMethodAssignment\obj\Debug\ConsoleAppMethodAssignment.pdb

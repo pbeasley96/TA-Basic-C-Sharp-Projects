@@ -8,23 +8,10 @@ namespace ConsoleAppMethodAssignment
 {
     public class Math //Create a class.
     {
-        public int Operation(int number) //In that class, create a method that takes two integers as parameters.
+        public int Operation(int number, int number1 = 0) //In that class, create a method that takes two integers as parameters.
         {
-            int value = number;
-            return value;
-        }
-        public int OperationOptional(int number) //Make one of them optional. Have the method do a math operation and return an integer result.
-        {
-            int value = number + 50;
-            if (value != 0 && value != int.)
-            {
-                return value;
-            }
-            else
-            {
-                return ;
-            }
-
+            int value1 = number * number1;
+            return value1;
         }
 
     }
@@ -39,13 +26,20 @@ namespace ConsoleAppMethodAssignment
 
             Math newOperation = new Math(); //Call the method in the class, passing in the one or two numbers entered.
             int input1 = Convert.ToInt32(Console.ReadLine());
-            int input2 = Convert.ToInt32(Console.ReadLine());
 
-            int resultofMethod1 = newOperation.Operation(input1);
-            int resultofMethod2 = newOperation.OperationOptional(input2);
+            Console.WriteLine("Enter the second number (optional, press Enter to skip):");
+            string secondNumber = Console.ReadLine();
 
-            Console.WriteLine(resultofMethod1 + 50);
-            Console.WriteLine(resultofMethod1 + resultofMethod2);
+            int result;
+            if (string.IsNullOrEmpty(secondNumber))
+            {
+                result = newOperation.Operation(input1);
+            }
+            else
+            {
+                int input2 = int.Parse(secondNumber);
+                result = newOperation.Operation(input1, input2);
+            }
             Console.ReadLine();
         }
     }
