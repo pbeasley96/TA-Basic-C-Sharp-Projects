@@ -6,31 +6,34 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppMethodsandObjectsAssignment
 {
-    public class Person //Create a class called Person and give it two properties.
+    public class Person //Create a class called Person and give it two properties. One called FirstName, the other LastName.
     {
-        public string FirstName(string name)
+        private string firstname;
+        public string FirstName
         {
-            string valueFirst = "Sample";
-            return valueFirst;
+            get { return firstname; }
+            set { firstname = value; }
         }
-        public string LastName(string name)
+        private string lastname;
+        public string LastName
         {
-            string valueLast = "Student";
-            return valueLast;
+            get { return lastname; }
+            set { lastname = value; }
         }
 
         public void SayName() //A void method called SayName() that takes no parameters and simply writes the person's full name to the console.
         {
-            Console.WriteLine("Name: [full name]");
+            Console.WriteLine($"Name: {firstname} {lastname}");
         }
     }
 
-    public class Employee  //Create another class called Employee and have it inherit from the Person class.
+    public class Employee : Person //Create another class called Employee and have it inherit from the Person class.
     {
-        public int PropertyID(int number) // Give the Employee class a property called Id and have it be of data type int.
+        private int id; // Give the Employee class a property called Id and have it be of data type int.
+        public int ID
         {
-            int valueID = number;
-            return valueID;
+            get { return id; }
+            set { id = value; }
         }
     }
 
@@ -38,9 +41,11 @@ namespace ConsoleAppMethodsandObjectsAssignment
     {
         static void Main(string[] args)
         {
-            Person employeeName = new Person(); //Instantiate and initialize an Employee object with a first name of “Sample” and a last name of “Student”.
-            employeeName.SayName(); //Call the superclass method SayName() on the Employee object.
-            Console.WriteLine(employeeName.FirstName + "" + employeeName.LastName);
+            Employee employee = new Employee(); //Inside of the Main method, instantiate and initialize an Employee object with a first name of “Sample” and a last name of “Student”.
+            employee.FirstName = "Sample";
+            employee.LastName = "Student";
+            employee.SayName(); //Call the superclass method SayName() on the Employee object.
+            Console.ReadLine();
         }
     }
 }
