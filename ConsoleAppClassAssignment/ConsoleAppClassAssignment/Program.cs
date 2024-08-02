@@ -18,14 +18,9 @@ namespace ConsoleAppClassAssignment
             result = Convert.ToInt32(Console.ReadLine());
         }
 
-        public int AddMath(int x, int y) //Overload a method.
+        public void Divide(int number1, int number2) //Overload a method.
         {
-            return x + y;
-        }
-
-        public double AddMathDouble(double x, double y)
-        {
-            return x + y;
+            Console.WriteLine(number1 / number2);
         }
 
     }
@@ -54,11 +49,10 @@ namespace ConsoleAppClassAssignment
             Console.WriteLine("Method with output Parameters, result of value is: {0}", a);
             Console.ReadLine();
 
-            Math mathAdd = new Math();
-            int input1 = mathAdd.AddMath(8, 5);
-            double input2 = mathAdd.AddMathDouble(4.3, 6.26);
-            Console.WriteLine("Int: " + input1);
-            Console.WriteLine("Double: " + input2);
+            Math mathdivide = new Math();
+            int input1 = Convert.ToInt32(Console.ReadLine());
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            mathdivide.Divide(input1, input2);
             Console.ReadLine();
 
             Console.WriteLine("This is a: {0} ", ClassStatic.String);
