@@ -43,16 +43,17 @@ namespace ConsoleAppClassAssignment
             mathDivide.Divide(input); //Call the method on that number. Display the output to the screen.
             Console.ReadLine();
 
-            Math valueRes = new Math();
+            
             int a;
-            valueRes.ValueResult(out a);
+            mathDivide.ValueResult(out a);
             Console.WriteLine("Method with output Parameters, result of value is: {0}", a);
             Console.ReadLine();
 
-            Math mathdivide = new Math();
+           
+            Console.WriteLine("Please enter a number.");
             int input1 = Convert.ToInt32(Console.ReadLine());
             int input2 = Convert.ToInt32(Console.ReadLine());
-            mathdivide.Divide(input1, input2);
+            mathDivide.Divide(input1, input2);
             Console.ReadLine();
 
             Console.WriteLine("This is a: {0} ", ClassStatic.String);
