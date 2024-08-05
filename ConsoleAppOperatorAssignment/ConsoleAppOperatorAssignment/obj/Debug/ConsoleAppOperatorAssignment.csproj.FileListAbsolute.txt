@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\bin\Debug\ConsoleAppOperatorAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\bin\Debug\ConsoleAppOperatorAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\bin\Debug\ConsoleAppOperatorAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\obj\Debug\ConsoleAppOperatorAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\obj\Debug\ConsoleAppOperatorAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\obj\Debug\ConsoleAppOperatorAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppOperatorAssignment\ConsoleAppOperatorAssignment\obj\Debug\ConsoleAppOperatorAssignment.pdb

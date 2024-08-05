@@ -22,8 +22,8 @@ namespace ConsoleAppOperatorAssignment
                 get { return lastname; }
                 set { lastname = value; }
             }
-            private string id;
-            public string ID
+            private int id;
+            public int ID
             {
                 get { return id; }
                 set { id = value; }
@@ -50,9 +50,10 @@ namespace ConsoleAppOperatorAssignment
 
         static void Main(string[] args)
         {
-            Employee employeeID = new Employee(); //Instantiate two objects of the Employee class and assign values to their properties. 
-
-
+            Employee employee1 = new Employee { ID = 5 }; //Instantiate two objects of the Employee class and assign values to their properties. 
+            Employee employee2 = new Employee { ID = 10 };
+            Console.WriteLine(employee1 == employee2); //Compare the two Employee objects using the newly overloaded operators and display the results.
+            Console.ReadLine();
         }
     }
 }
