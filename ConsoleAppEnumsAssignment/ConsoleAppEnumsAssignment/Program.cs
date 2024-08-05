@@ -12,13 +12,10 @@ namespace ConsoleAppEnumsAssignment
         public static void Main()
         {
             Console.WriteLine("Please select a day in the week."); //Prompt the user to enter the current day of the week.
+            Console.ReadLine();
             foreach (string weekDay in Enum.GetNames(typeof(Days)))
             {
-                Console.WriteLine("You've selected ", weekDay, Enum.Parse(typeof(Days)));
-            }
-        catch (Exception) //Wrap the above statement in a try/catch block to the console if an error occurs.
-            {
-                Console.WriteLine("Please enter an actual day of the week.");
+                Console.WriteLine("You've selected: ", weekDay, Enum.Parse(typeof(Days)));
             }
         }
     }
