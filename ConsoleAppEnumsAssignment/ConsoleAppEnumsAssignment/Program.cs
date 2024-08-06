@@ -6,24 +6,40 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppEnumsAssignment
 {
-    public class Week {
-        enum Days { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }; //Create an enum for the days of the week.
-
-        public static void Main()
-        {
-            Console.WriteLine("Please select a day in the week."); //Prompt the user to enter the current day of the week.
-            Console.ReadLine();
-            foreach (string weekDay in Enum.GetNames(typeof(Days)))
-            {
-                Console.WriteLine("You've selected: ", weekDay, Enum.Parse(typeof(Days)));
-            }
-        }
-    }
-
     class Program
     {
+        public enum Week //Create an enum for the days of the week.
+        {
+            Sunday,
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thrusday,
+            Friday,
+            Saturday
+        }
         static void Main(string[] args)
         {
+            try //Wrap the above statement in a try/catch block.
+            {
+                Console.WriteLine("Please select a day within the week."); //Prompt the user to enter the current day of the week.
+                string input = Console.ReadLine();
+                Week week; //Assign the value to a variable of that enum data type you just created.
+
+                if (Enum.TryParse<Week>(input, out week))
+                {
+                    Console.WriteLine("The day you have selected is: " + input);
+                }
+                else
+                {
+                    throw new FormatException("Please enter an actual day of the week.");
+                }
+            }
+            catch (FormatException cat)
+            {
+                Console.WriteLine(cat.Message);
+            }
+            Console.ReadLine();
         }
     }
 }

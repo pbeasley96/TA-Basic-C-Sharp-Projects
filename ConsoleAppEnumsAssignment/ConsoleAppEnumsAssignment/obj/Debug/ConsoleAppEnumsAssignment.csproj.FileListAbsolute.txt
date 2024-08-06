@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\bin\Debug\ConsoleAppEnumsAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\bin\Debug\ConsoleAppEnumsAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\bin\Debug\ConsoleAppEnumsAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\obj\Debug\ConsoleAppEnumsAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\obj\Debug\ConsoleAppEnumsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\obj\Debug\ConsoleAppEnumsAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppEnumsAssignment\ConsoleAppEnumsAssignment\obj\Debug\ConsoleAppEnumsAssignment.pdb
