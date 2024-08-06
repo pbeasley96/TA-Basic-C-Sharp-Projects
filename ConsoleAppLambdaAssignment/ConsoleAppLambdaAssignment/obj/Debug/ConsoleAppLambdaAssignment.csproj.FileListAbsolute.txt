@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\bin\Debug\ConsoleAppLambdaAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\bin\Debug\ConsoleAppLambdaAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\bin\Debug\ConsoleAppLambdaAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\obj\Debug\ConsoleAppLambdaAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\obj\Debug\ConsoleAppLambdaAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\obj\Debug\ConsoleAppLambdaAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppLambdaAssignment\ConsoleAppLambdaAssignment\obj\Debug\ConsoleAppLambdaAssignment.pdb

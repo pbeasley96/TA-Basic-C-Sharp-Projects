@@ -6,11 +6,32 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppLambdaAssignment
 {
-    class Employee
+    public class Employee //Create an Employee class.
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public Employee(string firstname, string lastname, int id)
+        {
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.id = id;
+        }
+        private string firstname;
+        public string FirstName
+        {
+            get { return firstname; }
+            set { firstname = value; }
+        }
+        private string lastname;
+        public string LastName
+        {
+            get { return lastname; }
+            set { lastname = value; }
+        }
+        private int id;
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
     }
 
 
@@ -18,25 +39,23 @@ namespace ConsoleAppLambdaAssignment
     {
         static void Main(string[] args)
         {
-            List<string> empNames = new List<string>();
-            empNames[0] = new Employee() { Id = 1, FirstName = "Joe", LastName = "Madureira" };
-            empNames[1] = new Employee() { Id = 2, FirstName = "Akira", LastName = "Toriyama" };
-            empNames[2] = new Employee() { Id = 3, FirstName = "Yusuke", LastName = "Murata" };
-            empNames[3] = new Employee() { Id = 4, FirstName = "David", LastName = "Marquez" };
-            empNames[4] = new Employee() { Id = 1, FirstName = "Jorge", LastName = "Jimenez" };
-            empNames[5] = new Employee() { Id = 2, FirstName = "Jim", LastName = "Lee" };
-            empNames[6] = new Employee() { Id = 3, FirstName = "Kohei", LastName = "Horikoshi" };
-            empNames[7] = new Employee() { Id = 4, FirstName = "Masashi", LastName = "Kishimoto" };
-            empNames[8] = new Employee() { Id = 1, FirstName = "Tite", LastName = "Kubo" };
-            empNames[9] = new Employee() { Id = 2, FirstName = "Joe", LastName = "Michaels" };
+            List<Employee> empNames = new List<Employee>(); //Create a list of at least 10 employees. At least two employees should have the first name “Joe”.
+            empNames.Add(new Employee("Joe", "Madureira", 1));
+            empNames.Add(new Employee("Akira", "Toriyama", 2));
+            empNames.Add(new Employee("Yusuke", "Murata", 3));
+            empNames.Add(new Employee("David", "Marquez", 4));
+            empNames.Add(new Employee("Jorge", "Jimenez", 5));
+            empNames.Add(new Employee("Jim", "Lee", 6));
+            empNames.Add(new Employee("Kohei", "Horikoshi", 7));
+            empNames.Add(new Employee("Masashi", "Kishimoto", 8));
+            empNames.Add(new Employee("Tite", "Kubo", 9));
+            empNames.Add(new Employee("Joe", "Michaels", 10));
 
-            foreach (var item in empNames)
+            foreach(var employee in empNames) 
             {
-                if (empNames.IndexOf(item) = "Joe")
-                {
-                    Console.WriteLine();
-                }
+                Console.WriteLine("Employee names: {0},{1},{2}", employee.FirstName, employee.LastName, employee.ID);
             }
+            Console.ReadLine();
         }
     }
 }
