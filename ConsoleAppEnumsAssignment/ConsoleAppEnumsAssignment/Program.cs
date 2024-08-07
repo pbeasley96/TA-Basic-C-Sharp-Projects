@@ -24,20 +24,16 @@ namespace ConsoleAppEnumsAssignment
             {
                 Console.WriteLine("Please select a day within the week."); //Prompt the user to enter the current day of the week.
                 string input = Console.ReadLine();
-                Week week; //Assign the value to a variable of that enum data type you just created.
+                Week week = (Week)Enum.Parse(typeof(Week),input); //Assign the value to a variable of that enum data type you just created.
 
-                if (Enum.TryParse<Week>(input, out week))
+                if (Enum.IsDefined(typeof(Week),input))
                 {
                     Console.WriteLine("The day you have selected is: " + input);
                 }
-                else
-                {
-                    throw new FormatException("Please enter an actual day of the week.");
-                }
             }
-            catch (FormatException cat)
+            catch (ArgumentException)
             {
-                Console.WriteLine(cat.Message);
+                Console.WriteLine("Please select an actual day.");
             }
             Console.ReadLine();
         }
