@@ -55,7 +55,12 @@ namespace ConsoleAppLambdaAssignment
             {
                 Console.WriteLine("Employee names: {0},{1},{2}", employee.FirstName, employee.LastName, employee.ID);
             }
-            Console.ReadLine();
+            List<Employee> empNames2 = new List<Employee>();
+            foreach(var employee2 in empNames2)
+            if (empNames.Contains("Joe"))
+            {
+                empNames.AddRange(empNames2);
+            }
         }
     }
 }
