@@ -32,6 +32,11 @@ namespace ConsoleAppLambdaAssignment
             get { return id; }
             set { id = value; }
         }
+
+        internal void Add(Employee employee2)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
@@ -40,6 +45,7 @@ namespace ConsoleAppLambdaAssignment
         static void Main(string[] args)
         {
             List<Employee> empNames = new List<Employee>(); //Create a list of at least 10 employees. At least two employees should have the first name “Joe”.
+            List<Employee> empNames2 = new List<Employee>();
             empNames.Add(new Employee("Joe", "Madureira", 1));
             empNames.Add(new Employee("Akira", "Toriyama", 2));
             empNames.Add(new Employee("Yusuke", "Murata", 3));
@@ -53,16 +59,14 @@ namespace ConsoleAppLambdaAssignment
 
             foreach(var employee in empNames) 
             {
-                Console.WriteLine(employee.FirstName, employee.LastName, employee.ID);
-            }
-            List<Employee> empNames2 = new List<Employee>();
-            foreach(var employee2 in empNames2)
-            {
-                Console.WriteLine(employee2.FirstName, employee2.LastName, employee2.ID);
-            }
-            if (empNames.Any("Joe"))
-            {
-                empNames.AddRange(empNames2);
+                foreach (var employee2 in empNames2)
+                {
+                    if (employee.FirstName == "Joe")
+                    {
+                        employee.Add(employee2);
+                    }
+                }
+
             }
         }
     }
