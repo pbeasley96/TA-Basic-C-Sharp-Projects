@@ -1,0 +1,2 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.csproj.CoreCompileInputs.cache
