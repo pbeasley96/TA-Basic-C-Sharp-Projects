@@ -46,6 +46,7 @@ namespace ConsoleAppLambdaAssignment
         {
             List<Employee> empNames = new List<Employee>(); //Create a list of at least 10 employees. At least two employees should have the first name “Joe”.
             List<Employee> empNames2 = new List<Employee>();
+            List<Employee> empLambda = empNames.Where(e => e.ID >= 5).ToList();
             empNames.Add(new Employee("Joe", "Madureira", 1));
             empNames.Add(new Employee("Akira", "Toriyama", 2));
             empNames.Add(new Employee("Yusuke", "Murata", 3));
@@ -57,17 +58,18 @@ namespace ConsoleAppLambdaAssignment
             empNames.Add(new Employee("Tite", "Kubo", 9));
             empNames.Add(new Employee("Joe", "Michaels", 10));
 
-            foreach(var employee in empNames) 
+            foreach(var employee in empNames) //Using a foreach loop, created a new list of all employees with the first name “Joe”.
             {
-                foreach (var employee2 in empNames2)
+                if (employee.FirstName == "Joe")
                 {
-                    if (employee.FirstName == "Joe")
-                    {
-                        employee.Add(employee2);
-                    }
+                    empNames.AddRange(empNames2);
                 }
-
             }
+            foreach (Employee employee1 in empLambda) //Using a lambda expression, make a list of all employees with an Id number greater than 5.
+            {
+                Console.WriteLine($"{employee1.FirstName} has an ID number greater than 5.");
+            }
+            Console.ReadLine();
         }
     }
 }
