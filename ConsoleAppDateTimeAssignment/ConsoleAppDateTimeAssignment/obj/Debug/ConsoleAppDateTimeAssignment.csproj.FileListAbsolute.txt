@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\bin\Debug\ConsoleAppDateTimeAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\bin\Debug\ConsoleAppDateTimeAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\bin\Debug\ConsoleAppDateTimeAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\obj\Debug\ConsoleAppDateTimeAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\obj\Debug\ConsoleAppDateTimeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\obj\Debug\ConsoleAppDateTimeAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppDateTimeAssignment\ConsoleAppDateTimeAssignment\obj\Debug\ConsoleAppDateTimeAssignment.pdb
