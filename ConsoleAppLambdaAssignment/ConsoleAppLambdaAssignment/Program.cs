@@ -46,7 +46,7 @@ namespace ConsoleAppLambdaAssignment
         {
             List<Employee> empNames = new List<Employee>(); //Create a list of at least 10 employees. At least two employees should have the first name “Joe”.
             List<Employee> empNames2 = new List<Employee>();
-            List<Employee> empLambda = empNames.Where(e => e.ID >= 5).ToList();
+            List<Employee> empLambda = new List<Employee>();
             empNames.Add(new Employee("Joe", "Madureira", 1));
             empNames.Add(new Employee("Akira", "Toriyama", 2));
             empNames.Add(new Employee("Yusuke", "Murata", 3));
@@ -62,12 +62,22 @@ namespace ConsoleAppLambdaAssignment
             {
                 if (employee.FirstName == "Joe")
                 {
-                    empNames.AddRange(empNames2);
+                    empNames2.Add(employee);
+                    Console.WriteLine("Employee names: {0} {1} {2}", employee.FirstName, employee.LastName, employee.ID);
                 }
             }
-            foreach (Employee employee1 in empLambda) //Using a lambda expression, make a list of all employees with an Id number greater than 5.
+
+            var employee1 = empNames.Where(e => e.FirstName == "Joe"); //Created another list of all employees with the first name “Joe” using a lambda expression.
+            foreach (var value in employee1)
             {
-                Console.WriteLine($"{employee1.FirstName} has an ID number greater than 5.");
+                empLambda.Add(value);
+                Console.WriteLine("Employee names: {0} {1} {2}", value.FirstName, value.LastName, value.ID);
+            }
+            
+            var employeeID = empNames.Where(e => e.ID > 5); //Using a lambda expression, make a list of all employees with an Id number greater than 5.
+            foreach (var value1 in employeeID)
+            {
+                Console.WriteLine("Employee names with an ID rank over 5: {0} {1} {2}", value1.FirstName, value1.LastName, value1.ID);
             }
             Console.ReadLine();
         }
