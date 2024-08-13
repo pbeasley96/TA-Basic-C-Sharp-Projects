@@ -1,2 +1,7 @@
 C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.csproj.AssemblyReference.cache
 C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\bin\Debug\ConsoleAppTwentyOne.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\bin\Debug\ConsoleAppTwentyOne.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\bin\Debug\ConsoleAppTwentyOne.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppTwentyOne\ConsoleAppTwentyOne\obj\Debug\ConsoleAppTwentyOne.pdb
