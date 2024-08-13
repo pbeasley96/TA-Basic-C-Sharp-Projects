@@ -1,0 +1,7 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\bin\Debug\ConsoleAppConstructorAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\bin\Debug\ConsoleAppConstructorAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\bin\Debug\ConsoleAppConstructorAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\obj\Debug\ConsoleAppConstructorAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\obj\Debug\ConsoleAppConstructorAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\obj\Debug\ConsoleAppConstructorAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleAppConstructorAssignment\ConsoleAppConstructorAssignment\obj\Debug\ConsoleAppConstructorAssignment.pdb
