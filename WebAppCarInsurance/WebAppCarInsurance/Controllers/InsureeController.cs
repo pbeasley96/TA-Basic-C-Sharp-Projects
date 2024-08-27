@@ -35,6 +35,36 @@ namespace WebAppCarInsurance.Controllers
             return View(insuree);
         }
 
+        public ActionResult Calculate(int Age, int CarYear, string CarMake, string CarModel, int SpeedingTicket, string DUI)
+        {
+            int baseMonth = 50;
+            if (Age <= 18)
+            {
+                return View(baseMonth + 100);
+            }
+            if (Age >= 19 && Age <= 25)
+            {
+                return View(baseMonth + 50);
+            }
+            if (Age >= 26)
+            {
+                return View(baseMonth + 25);
+            }
+            if (CarYear > 2000)
+            {
+                return View(baseMonth + 25);
+            }
+            if(CarMake == "Porsche")
+            {
+                return View(baseMonth + 25);
+            }
+            if (CarMake == "Porsche" && CarModel == "911 Carrera")
+            {
+                return View(baseMonth + 25);
+            }
+        }
+
+
         // GET: Insuree/Create
         public ActionResult Create()
         {
