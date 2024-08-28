@@ -35,33 +35,53 @@ namespace WebAppCarInsurance.Controllers
             return View(insuree);
         }
 
-        public ActionResult Calculate(int Age, int CarYear, string CarMake, string CarModel, int SpeedingTicket, string DUI)
+        public decimal Calculate(Insuree insuree)
         {
-            int baseMonth = 50;
+            decimal baseMonth = 50;
+            int Age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             if (Age <= 18)
             {
-                return View(baseMonth + 100);
+                baseMonth = baseMonth + 100;
             }
             if (Age >= 19 && Age <= 25)
             {
-                return View(baseMonth + 50);
+                baseMonth = baseMonth + 50;
             }
             if (Age >= 26)
             {
-                return View(baseMonth + 25);
+                baseMonth = baseMonth + 25;
             }
-            if (CarYear > 2000)
+            if (insuree.CarYear < 2000)
             {
-                return View(baseMonth + 25);
+               baseMonth = baseMonth + 25;
             }
-            if(CarMake == "Porsche")
+            if (insuree.CarYear > 2015)
             {
-                return View(baseMonth + 25);
+                baseMonth = baseMonth + 25;
             }
-            if (CarMake == "Porsche" && CarModel == "911 Carrera")
+            if(insuree.CarMake == "Porsche")
             {
-                return View(baseMonth + 25);
+                baseMonth = baseMonth + 25;
             }
+            if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
+            {
+                baseMonth = baseMonth + 25;
+            }
+            if (insuree.SpeedingTickets >= 1)
+            {
+               baseMonth = baseMonth + (10 * insuree.SpeedingTickets);
+            }
+            if (insuree.DUI == true)
+            {
+                baseMonth = baseMonth + (baseMonth * 0.25m);
+            }
+            if (insuree.CoverageType == true)
+            {
+                baseMonth = baseMonth + (baseMonth * 0.50m);
+            }
+            insuree.Quote = baseMonth;
+            return (insuree.Quote);
+
         }
 
 
