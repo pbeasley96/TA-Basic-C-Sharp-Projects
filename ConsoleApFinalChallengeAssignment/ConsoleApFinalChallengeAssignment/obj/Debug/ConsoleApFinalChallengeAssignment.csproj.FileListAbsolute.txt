@@ -1,0 +1,12 @@
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\ConsoleApFinalChallengeAssignment.exe.config
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\ConsoleApFinalChallengeAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\ConsoleApFinalChallengeAssignment.pdb
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\EntityFramework.dll
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\EntityFramework.xml
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\obj\Debug\ConsoleApFinalChallengeAssignment.csproj.AssemblyReference.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\obj\Debug\ConsoleApFinalChallengeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\obj\Debug\ConsoleApFinalChallengeAssignment.csproj.CopyComplete
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\obj\Debug\ConsoleApFinalChallengeAssignment.exe
+C:\Users\pebea\Documents\TA-Basic-C-Sharp-Projects\ConsoleApFinalChallengeAssignment\ConsoleApFinalChallengeAssignment\obj\Debug\ConsoleApFinalChallengeAssignment.pdb
